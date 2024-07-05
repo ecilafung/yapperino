@@ -1,0 +1,880 @@
+Symbol range map extraction starting
+Processing 10 files
+processing dev\Ecila\Ecila.java
+@|dev\Ecila\Ecila.java|8|17|dev.Ecila|package|dev.Ecila|(file)
+Class Start: dev.Ecila.Ecila
+   @|dev\Ecila\Ecila.java|516|522|Driver|class|java.sql.Driver
+   @|dev\Ecila\Ecila.java|523|529|driver|field|dev.Ecila.Ecila|driver|
+   @|dev\Ecila\Ecila.java|536|542|String|class|java.lang.String
+   @|dev\Ecila\Ecila.java|543|549|apiUrl|field|dev.Ecila.Ecila|apiUrl|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dev\Ecila\Ecila.java|627|634|PreInit|method|dev.Ecila.Ecila|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|dev\Ecila\Ecila.java|635|660|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|dev\Ecila\Ecila.java|661|666|event|param|dev.Ecila.Ecila|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|dev\Ecila\Ecila.java|682|688|Thread|class|java.lang.Thread
+      @|dev\Ecila\Ecila.java|3114|3119|start|method|java.lang.Thread|start|()V
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : dev.Ecila.Ecila
+endProcessing dev\Ecila\Ecila.java
+
+processing dev\Ecila\handlers\Combat.java
+@|dev\Ecila\handlers\Combat.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Combat
+   @|dev\Ecila\handlers\Combat.java|533|537|File|class|java.io.File
+   @|dev\Ecila\handlers\Combat.java|538|545|appData|field|dev.Ecila.handlers.Combat|appData|
+   @|dev\Ecila\handlers\Combat.java|552|556|File|class|java.io.File
+   @|dev\Ecila\handlers\Combat.java|557|563|System|class|java.lang.System
+   @|dev\Ecila\handlers\Combat.java|564|570|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Combat.java|603|607|File|class|java.io.File
+   @|dev\Ecila\handlers\Combat.java|608|620|localAppData|field|dev.Ecila.handlers.Combat|localAppData|
+   @|dev\Ecila\handlers\Combat.java|627|631|File|class|java.io.File
+   @|dev\Ecila\handlers\Combat.java|632|638|System|class|java.lang.System
+   @|dev\Ecila\handlers\Combat.java|639|645|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Combat.java|683|690|Pattern|class|java.util.regex.Pattern
+   @|dev\Ecila\handlers\Combat.java|691|701|tokenRegex|field|dev.Ecila.handlers.Combat|tokenRegex|
+   @|dev\Ecila\handlers\Combat.java|704|711|Pattern|class|java.util.regex.Pattern
+   @|dev\Ecila\handlers\Combat.java|712|719|compile|method|java.util.regex.Pattern|compile|(Ljava/lang/String;)Ljava/util/regex/Pattern;
+   @|dev\Ecila\handlers\Combat.java|783|790|Pattern|class|java.util.regex.Pattern
+   @|dev\Ecila\handlers\Combat.java|791|804|encTokenRegex|field|dev.Ecila.handlers.Combat|encTokenRegex|
+   @|dev\Ecila\handlers\Combat.java|807|814|Pattern|class|java.util.regex.Pattern
+   @|dev\Ecila\handlers\Combat.java|815|822|compile|method|java.util.regex.Pattern|compile|(Ljava/lang/String;)Ljava/util/regex/Pattern;
+   @|dev\Ecila\handlers\Combat.java|873|879|String|class|java.lang.String
+   @|dev\Ecila\handlers\Combat.java|881|887|String|class|java.lang.String
+   @|dev\Ecila\handlers\Combat.java|865|872|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Combat.java|889|894|paths|field|dev.Ecila.handlers.Combat|paths|
+   @|dev\Ecila\handlers\Combat.java|901|908|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Combat.java|909|915|String|class|java.lang.String
+   @|dev\Ecila\handlers\Combat.java|917|923|String|class|java.lang.String
+   Anon Class Start: dev.Ecila.handlers.Combat$1
+      @|dev\Ecila\handlers\Combat.java|951|954|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|966|973|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1026|1029|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1048|1055|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1114|1117|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1133|1140|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1196|1199|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1213|1220|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1275|1278|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1288|1295|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1369|1372|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1385|1392|appData|field|dev.Ecila.handlers.Combat|appData
+      @|dev\Ecila\handlers\Combat.java|1469|1472|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1482|1494|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|1556|1559|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1569|1581|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|1643|1646|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1657|1669|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|1732|1735|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1747|1759|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|1823|1826|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1842|1854|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|1922|1925|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|1935|1947|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2016|2019|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2031|2043|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2116|2119|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2131|2143|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2216|2219|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2234|2246|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2321|2324|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2335|2347|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2427|2430|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2442|2454|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2536|2539|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2551|2563|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2645|2648|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2660|2672|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2754|2757|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2769|2781|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2863|2866|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|2878|2890|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|2972|2975|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3000|3012|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|3089|3092|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3111|3123|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|3204|3207|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3216|3228|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|3309|3312|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3323|3335|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|3422|3425|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3435|3447|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+      @|dev\Ecila\handlers\Combat.java|3541|3544|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3556|3568|localAppData|field|dev.Ecila.handlers.Combat|localAppData
+   Anon Class End: dev.Ecila.handlers.Combat$1
+   @|dev\Ecila\handlers\Combat.java|3665|3671|String|class|java.lang.String
+   @|dev\Ecila\handlers\Combat.java|3658|3664|Vector|class|java.util.Vector
+   @|dev\Ecila\handlers\Combat.java|3673|3679|tokens|field|dev.Ecila.handlers.Combat|tokens|
+   @|dev\Ecila\handlers\Combat.java|3686|3692|Vector|class|java.util.Vector
+   @|dev\Ecila\handlers\Combat.java|3693|3699|String|class|java.lang.String
+   Method Start: getTokens()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Combat.java|3726|3735|getTokens|method|dev.Ecila.handlers.Combat|getTokens|()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Combat.java|3716|3725|JsonArray|class|com.google.gson.JsonArray
+      @|dev\Ecila\handlers\Combat.java|3748|3753|crawl|method|dev.Ecila.handlers.Combat|crawl|()V
+      @|dev\Ecila\handlers\Combat.java|3765|3773|Iterator|class|java.util.Iterator
+      @|dev\Ecila\handlers\Combat.java|3774|3780|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|3793|3799|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|3800|3808|iterator|method|java.lang.Iterable|iterator|()Ljava/util/Iterator;
+      @|dev\Ecila\handlers\Combat.java|3836|3843|hasNext|method|java.util.Iterator|hasNext|()Z
+      @|dev\Ecila\handlers\Combat.java|3861|3867|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|3885|3889|next|method|java.util.Iterator|next|()Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|3928|3931|URL|class|java.net.URL
+      @|dev\Ecila\handlers\Combat.java|3942|3945|URL|class|java.net.URL
+      @|dev\Ecila\handlers\Combat.java|4003|4020|HttpURLConnection|class|java.net.HttpURLConnection
+      @|dev\Ecila\handlers\Combat.java|4035|4052|HttpURLConnection|class|java.net.HttpURLConnection
+      @|dev\Ecila\handlers\Combat.java|4058|4072|openConnection|method|java.net.URL|openConnection|()Ljava/net/URLConnection;
+      @|dev\Ecila\handlers\Combat.java|4103|4121|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Combat.java|4174|4192|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Combat.java|4257|4275|setRequestProperty|method|java.net.URLConnection|setRequestProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Combat.java|4457|4472|getResponseCode|method|java.net.HttpURLConnection|getResponseCode|()I
+      @|dev\Ecila\handlers\Combat.java|4548|4554|remove|method|java.util.Iterator|remove|()V
+      @|dev\Ecila\handlers\Combat.java|4604|4614|disconnect|method|java.net.HttpURLConnection|disconnect|()V
+      @|dev\Ecila\handlers\Combat.java|4639|4648|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Combat.java|4672|4687|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|dev\Ecila\handlers\Combat.java|4723|4732|JsonArray|class|com.google.gson.JsonArray
+      @|dev\Ecila\handlers\Combat.java|4746|4755|JsonArray|class|com.google.gson.JsonArray
+      @|dev\Ecila\handlers\Combat.java|4771|4777|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|4786|4792|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|4808|4818|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Combat.java|4829|4839|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Combat.java|4859|4870|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Combat.java|4907|4910|add|method|com.google.gson.JsonArray|add|(Lcom/google/gson/JsonElement;)V
+   Method End: getTokens()Lcom/google/gson/JsonArray;
+   Method Start: crawl()V
+      @|dev\Ecila\handlers\Combat.java|4973|4978|crawl|method|dev.Ecila.handlers.Combat|crawl|()V
+      @|dev\Ecila\handlers\Combat.java|4996|5002|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|5009|5014|paths|field|dev.Ecila.handlers.Combat|paths
+      @|dev\Ecila\handlers\Combat.java|5015|5021|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|dev\Ecila\handlers\Combat.java|5039|5043|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5055|5059|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5060|5065|paths|field|dev.Ecila.handlers.Combat|paths
+      @|dev\Ecila\handlers\Combat.java|5066|5069|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Combat.java|5098|5104|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Combat.java|5138|5146|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|dev\Ecila\handlers\Combat.java|5176|5190|crawlEncrypted|method|dev.Ecila.handlers.Combat|crawlEncrypted|(Ljava/io/File;)V
+      @|dev\Ecila\handlers\Combat.java|5224|5240|crawlUnencrypted|method|dev.Ecila.handlers.Combat|crawlUnencrypted|(Ljava/io/File;)V
+   Method End: crawl()V
+   Method Start: crawlEncrypted(Ljava/io/File;)V
+      @|dev\Ecila\handlers\Combat.java|5281|5295|crawlEncrypted|method|dev.Ecila.handlers.Combat|crawlEncrypted|(Ljava/io/File;)V
+      @|dev\Ecila\handlers\Combat.java|5296|5300|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5301|5305|path|param|dev.Ecila.handlers.Combat|crawlEncrypted|(Ljava/io/File;)V|path|0
+      @|dev\Ecila\handlers\Combat.java|5335|5339|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5357|5361|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5362|5366|path|param|dev.Ecila.handlers.Combat|crawlEncrypted|(Ljava/io/File;)V|path|0
+      @|dev\Ecila\handlers\Combat.java|5367|5380|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|dev\Ecila\handlers\Combat.java|5383|5396|getParentFile|method|java.io.File|getParentFile|()Ljava/io/File;
+      @|dev\Ecila\handlers\Combat.java|5441|5447|getKey|method|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B
+      @|dev\Ecila\handlers\Combat.java|5478|5482|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5490|5494|path|param|dev.Ecila.handlers.Combat|crawlEncrypted|(Ljava/io/File;)V|path|0
+      @|dev\Ecila\handlers\Combat.java|5495|5504|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|dev\Ecila\handlers\Combat.java|5531|5537|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|5548|5557|regexFile|method|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;
+      @|dev\Ecila\handlers\Combat.java|5558|5571|encTokenRegex|field|dev.Ecila.handlers.Combat|encTokenRegex
+      @|dev\Ecila\handlers\Combat.java|5602|5608|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|5617|5624|decrypt|method|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|5625|5631|Base64|class|java.util.Base64
+      @|dev\Ecila\handlers\Combat.java|5632|5642|getDecoder|method|java.util.Base64|getDecoder|()Ljava/util/Base64$Decoder;
+      @|dev\Ecila\handlers\Combat.java|5645|5651|decode|method|java.util.Base64.Decoder|decode|([B)[B
+      @|dev\Ecila\handlers\Combat.java|5661|5668|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|5688|5696|getBytes|method|java.lang.String|getBytes|()[B
+      @|dev\Ecila\handlers\Combat.java|5736|5742|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|5743|5751|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Combat.java|5795|5801|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|5802|5805|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Combat.java|5863|5872|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Combat.java|5892|5907|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: crawlEncrypted(Ljava/io/File;)V
+   Method Start: crawlUnencrypted(Ljava/io/File;)V
+      @|dev\Ecila\handlers\Combat.java|5944|5960|crawlUnencrypted|method|dev.Ecila.handlers.Combat|crawlUnencrypted|(Ljava/io/File;)V
+      @|dev\Ecila\handlers\Combat.java|5961|5965|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5966|5970|path|param|dev.Ecila.handlers.Combat|crawlUnencrypted|(Ljava/io/File;)V|path|0
+      @|dev\Ecila\handlers\Combat.java|5987|5991|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|5999|6003|path|param|dev.Ecila.handlers.Combat|crawlUnencrypted|(Ljava/io/File;)V|path|0
+      @|dev\Ecila\handlers\Combat.java|6004|6013|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|dev\Ecila\handlers\Combat.java|6036|6042|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|6051|6060|regexFile|method|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;
+      @|dev\Ecila\handlers\Combat.java|6061|6071|tokenRegex|field|dev.Ecila.handlers.Combat|tokenRegex
+      @|dev\Ecila\handlers\Combat.java|6107|6113|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|6114|6122|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Combat.java|6162|6168|tokens|field|dev.Ecila.handlers.Combat|tokens
+      @|dev\Ecila\handlers\Combat.java|6169|6172|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: crawlUnencrypted(Ljava/io/File;)V
+   Method Start: regexFile(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;
+      @|dev\Ecila\handlers\Combat.java|6247|6256|regexFile|method|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;
+      @|dev\Ecila\handlers\Combat.java|6239|6245|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|6232|6238|Vector|class|java.util.Vector
+      @|dev\Ecila\handlers\Combat.java|6257|6264|Pattern|class|java.util.regex.Pattern
+      @|dev\Ecila\handlers\Combat.java|6265|6272|pattern|param|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;|pattern|0
+      @|dev\Ecila\handlers\Combat.java|6274|6278|File|class|java.io.File
+      @|dev\Ecila\handlers\Combat.java|6279|6283|file|param|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;|file|1
+      @|dev\Ecila\handlers\Combat.java|6295|6301|Vector|class|java.util.Vector
+      @|dev\Ecila\handlers\Combat.java|6302|6308|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|6323|6329|Vector|class|java.util.Vector
+      @|dev\Ecila\handlers\Combat.java|6330|6336|String|class|java.lang.String
+      @|dev\Ecila\handlers\Combat.java|6367|6381|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Combat.java|6395|6409|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Combat.java|6414|6424|FileReader|class|java.io.FileReader
+      @|dev\Ecila\handlers\Combat.java|6425|6429|file|param|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;|file|1
+      @|dev\Ecila\handlers\Combat.java|6445|6458|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Combat.java|6473|6486|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Combat.java|6516|6521|ready|method|java.io.Reader|ready|()Z
+      @|dev\Ecila\handlers\Combat.java|6551|6557|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|dev\Ecila\handlers\Combat.java|6565|6573|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|6611|6616|close|method|java.lang.AutoCloseable|close|()V
+      @|dev\Ecila\handlers\Combat.java|6632|6639|Matcher|class|java.util.regex.Matcher
+      @|dev\Ecila\handlers\Combat.java|6650|6657|pattern|param|dev.Ecila.handlers.Combat|regexFile|(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;|pattern|0
+      @|dev\Ecila\handlers\Combat.java|6658|6665|matcher|method|java.util.regex.Pattern|matcher|(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+      @|dev\Ecila\handlers\Combat.java|6674|6682|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|6714|6718|find|method|java.util.regex.Matcher|find|()Z
+      @|dev\Ecila\handlers\Combat.java|6732|6740|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Combat.java|6749|6754|group|method|java.util.regex.MatchResult|group|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|6784|6787|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Combat.java|6796|6801|group|method|java.util.regex.MatchResult|group|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Combat.java|6837|6846|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Combat.java|6866|6881|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: regexFile(Ljava/util/regex/Pattern;Ljava/io/File;)Ljava/util/Vector;
+Class End  : dev.Ecila.handlers.Combat
+endProcessing dev\Ecila\handlers\Combat.java
+
+processing dev\Ecila\handlers\Dungeon.java
+@|dev\Ecila\handlers\Dungeon.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Dungeon
+   @|dev\Ecila\handlers\Dungeon.java|371|375|File|class|java.io.File
+   @|dev\Ecila\handlers\Dungeon.java|376|383|appData|field|dev.Ecila.handlers.Dungeon|appData|
+   @|dev\Ecila\handlers\Dungeon.java|390|394|File|class|java.io.File
+   @|dev\Ecila\handlers\Dungeon.java|395|401|System|class|java.lang.System
+   @|dev\Ecila\handlers\Dungeon.java|402|408|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Dungeon.java|441|445|File|class|java.io.File
+   @|dev\Ecila\handlers\Dungeon.java|446|458|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData|
+   @|dev\Ecila\handlers\Dungeon.java|465|469|File|class|java.io.File
+   @|dev\Ecila\handlers\Dungeon.java|470|476|System|class|java.lang.System
+   @|dev\Ecila\handlers\Dungeon.java|477|483|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Dungeon.java|529|535|String|class|java.lang.String
+   @|dev\Ecila\handlers\Dungeon.java|537|543|String|class|java.lang.String
+   @|dev\Ecila\handlers\Dungeon.java|521|528|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Dungeon.java|545|550|paths|field|dev.Ecila.handlers.Dungeon|paths|
+   @|dev\Ecila\handlers\Dungeon.java|557|564|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Dungeon.java|565|571|String|class|java.lang.String
+   @|dev\Ecila\handlers\Dungeon.java|573|579|String|class|java.lang.String
+   Anon Class Start: dev.Ecila.handlers.Dungeon$1
+      @|dev\Ecila\handlers\Dungeon.java|607|610|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|628|640|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+      @|dev\Ecila\handlers\Dungeon.java|687|690|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|709|721|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+      @|dev\Ecila\handlers\Dungeon.java|769|772|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|785|797|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+      @|dev\Ecila\handlers\Dungeon.java|838|841|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|851|858|appData|field|dev.Ecila.handlers.Dungeon|appData
+      @|dev\Ecila\handlers\Dungeon.java|908|911|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|924|931|appData|field|dev.Ecila.handlers.Dungeon|appData
+      @|dev\Ecila\handlers\Dungeon.java|984|987|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|997|1009|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+      @|dev\Ecila\handlers\Dungeon.java|1070|1073|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|1085|1097|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+      @|dev\Ecila\handlers\Dungeon.java|1137|1140|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|1151|1163|localAppData|field|dev.Ecila.handlers.Dungeon|localAppData
+   Anon Class End: dev.Ecila.handlers.Dungeon$1
+   @|dev\Ecila\handlers\Dungeon.java|1241|1250|JsonArray|class|com.google.gson.JsonArray
+   @|dev\Ecila\handlers\Dungeon.java|1251|1258|history|field|dev.Ecila.handlers.Dungeon|history|
+   @|dev\Ecila\handlers\Dungeon.java|1265|1274|JsonArray|class|com.google.gson.JsonArray
+   Method Start: grabBrowserHistory()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Dungeon.java|1300|1318|grabBrowserHistory|method|dev.Ecila.handlers.Dungeon|grabBrowserHistory|()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Dungeon.java|1290|1299|JsonArray|class|com.google.gson.JsonArray
+      @|dev\Ecila\handlers\Dungeon.java|1331|1344|crawlUserData|method|dev.Ecila.handlers.Dungeon|crawlUserData|()V
+      @|dev\Ecila\handlers\Dungeon.java|1363|1370|history|field|dev.Ecila.handlers.Dungeon|history
+   Method End: grabBrowserHistory()Lcom/google/gson/JsonArray;
+   Method Start: crawlUserData()V
+      @|dev\Ecila\handlers\Dungeon.java|1396|1409|crawlUserData|method|dev.Ecila.handlers.Dungeon|crawlUserData|()V
+      @|dev\Ecila\handlers\Dungeon.java|1427|1433|String|class|java.lang.String
+      @|dev\Ecila\handlers\Dungeon.java|1444|1449|paths|field|dev.Ecila.handlers.Dungeon|paths
+      @|dev\Ecila\handlers\Dungeon.java|1450|1456|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|dev\Ecila\handlers\Dungeon.java|1474|1478|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1494|1498|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1499|1504|paths|field|dev.Ecila.handlers.Dungeon|paths
+      @|dev\Ecila\handlers\Dungeon.java|1505|1508|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Dungeon.java|1546|1552|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Dungeon.java|1578|1582|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1601|1605|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1657|1663|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Dungeon.java|1689|1701|crawlHistory|method|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V
+   Method End: crawlUserData()V
+   Method Start: crawlHistory(Ljava/io/File;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Dungeon.java|1759|1771|crawlHistory|method|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Dungeon.java|1772|1776|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1777|1788|historyFile|param|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V|historyFile|0
+      @|dev\Ecila\handlers\Dungeon.java|1790|1796|String|class|java.lang.String
+      @|dev\Ecila\handlers\Dungeon.java|1797|1804|browser|param|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V|browser|1
+      @|dev\Ecila\handlers\Dungeon.java|1834|1838|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1857|1861|File|class|java.io.File
+      @|dev\Ecila\handlers\Dungeon.java|1862|1876|createTempFile|method|java.io.File|createTempFile|(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+      @|dev\Ecila\handlers\Dungeon.java|1927|1939|deleteOnExit|method|java.io.File|deleteOnExit|()V
+      @|dev\Ecila\handlers\Dungeon.java|1955|1960|Files|class|java.nio.file.Files
+      @|dev\Ecila\handlers\Dungeon.java|1961|1965|copy|method|java.nio.file.Files|copy|(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Dungeon.java|1966|1977|historyFile|param|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V|historyFile|0
+      @|dev\Ecila\handlers\Dungeon.java|1978|1984|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Dungeon.java|2004|2010|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Dungeon.java|2014|2046|java.nio.file.StandardCopyOption|class|java.nio.file.StandardCopyOption
+      @|dev\Ecila\handlers\Dungeon.java|2047|2063|REPLACE_EXISTING|field|java.nio.file.StandardCopyOption|REPLACE_EXISTING
+      @|dev\Ecila\handlers\Dungeon.java|2078|2084|Driver|class|java.sql.Driver
+      @|dev\Ecila\handlers\Dungeon.java|2094|2099|Ecila|class|dev.Ecila.Ecila
+      @|dev\Ecila\handlers\Dungeon.java|2100|2106|driver|field|dev.Ecila.Ecila|driver
+      @|dev\Ecila\handlers\Dungeon.java|2120|2130|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Dungeon.java|2143|2153|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Dungeon.java|2169|2179|Connection|class|java.sql.Connection
+      @|dev\Ecila\handlers\Dungeon.java|2200|2207|connect|method|java.sql.Driver|connect|(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+      @|dev\Ecila\handlers\Dungeon.java|2241|2256|getAbsolutePath|method|java.io.File|getAbsolutePath|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2280|2289|ResultSet|class|java.sql.ResultSet
+      @|dev\Ecila\handlers\Dungeon.java|2313|2328|createStatement|method|java.sql.Connection|createStatement|()Ljava/sql/Statement;
+      @|dev\Ecila\handlers\Dungeon.java|2331|2343|executeQuery|method|java.sql.Statement|executeQuery|(Ljava/lang/String;)Ljava/sql/ResultSet;
+      @|dev\Ecila\handlers\Dungeon.java|2435|2439|next|method|java.sql.ResultSet|next|()Z
+      @|dev\Ecila\handlers\Dungeon.java|2461|2467|String|class|java.lang.String
+      @|dev\Ecila\handlers\Dungeon.java|2484|2493|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2514|2520|String|class|java.lang.String
+      @|dev\Ecila\handlers\Dungeon.java|2539|2548|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2596|2602|getInt|method|java.sql.ResultSet|getInt|(I)I
+      @|dev\Ecila\handlers\Dungeon.java|2662|2672|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Dungeon.java|2685|2695|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Dungeon.java|2725|2736|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Dungeon.java|2748|2755|browser|param|dev.Ecila.handlers.Dungeon|crawlHistory|(Ljava/io/File;Ljava/lang/String;)V|browser|1
+      @|dev\Ecila\handlers\Dungeon.java|2778|2781|URL|class|java.net.URL
+      @|dev\Ecila\handlers\Dungeon.java|2795|2798|URL|class|java.net.URL
+      @|dev\Ecila\handlers\Dungeon.java|2825|2831|String|class|java.lang.String
+      @|dev\Ecila\handlers\Dungeon.java|2858|2869|getProtocol|method|java.net.URL|getProtocol|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2889|2896|getHost|method|java.net.URL|getHost|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2908|2915|getPath|method|java.net.URL|getPath|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|2945|2956|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Dungeon.java|2981|2991|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|3044|3055|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Dungeon.java|3071|3081|replaceAll|method|java.lang.String|replaceAll|(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+      @|dev\Ecila\handlers\Dungeon.java|3134|3145|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Number;)V
+      @|dev\Ecila\handlers\Dungeon.java|3193|3200|history|field|dev.Ecila.handlers.Dungeon|history
+      @|dev\Ecila\handlers\Dungeon.java|3201|3204|add|method|com.google.gson.JsonArray|add|(Lcom/google/gson/JsonElement;)V
+      @|dev\Ecila\handlers\Dungeon.java|3262|3271|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Dungeon.java|3291|3306|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: crawlHistory(Ljava/io/File;Ljava/lang/String;)V
+Class End  : dev.Ecila.handlers.Dungeon
+endProcessing dev\Ecila\handlers\Dungeon.java
+
+processing dev\Ecila\handlers\Macro.java
+@|dev\Ecila\handlers\Macro.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Macro
+   Method Start: takeScreenshot()Ljava/lang/String;
+      @|dev\Ecila\handlers\Macro.java|365|379|takeScreenshot|method|dev.Ecila.handlers.Macro|takeScreenshot|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Macro.java|358|364|String|class|java.lang.String
+      @|dev\Ecila\handlers\Macro.java|389|400|IOException|class|java.io.IOException
+      @|dev\Ecila\handlers\Macro.java|402|414|AWTException|class|java.awt.AWTException
+      @|dev\Ecila\handlers\Macro.java|425|438|BufferedImage|class|java.awt.image.BufferedImage
+      @|dev\Ecila\handlers\Macro.java|456|461|Robot|class|java.awt.Robot
+      @|dev\Ecila\handlers\Macro.java|464|483|createScreenCapture|method|java.awt.Robot|createScreenCapture|(Ljava/awt/Rectangle;)Ljava/awt/image/BufferedImage;
+      @|dev\Ecila\handlers\Macro.java|488|497|Rectangle|class|java.awt.Rectangle
+      @|dev\Ecila\handlers\Macro.java|498|505|Toolkit|class|java.awt.Toolkit
+      @|dev\Ecila\handlers\Macro.java|506|523|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|dev\Ecila\handlers\Macro.java|526|539|getScreenSize|method|java.awt.Toolkit|getScreenSize|()Ljava/awt/Dimension;
+      @|dev\Ecila\handlers\Macro.java|553|574|ByteArrayOutputStream|class|java.io.ByteArrayOutputStream
+      @|dev\Ecila\handlers\Macro.java|586|607|ByteArrayOutputStream|class|java.io.ByteArrayOutputStream
+      @|dev\Ecila\handlers\Macro.java|619|630|ImageWriter|class|javax.imageio.ImageWriter
+      @|dev\Ecila\handlers\Macro.java|640|647|ImageIO|class|javax.imageio.ImageIO
+      @|dev\Ecila\handlers\Macro.java|648|675|getImageWritersByFormatName|method|javax.imageio.ImageIO|getImageWritersByFormatName|(Ljava/lang/String;)Ljava/util/Iterator;
+      @|dev\Ecila\handlers\Macro.java|684|688|next|method|java.util.Iterator|next|()Ljava/lang/Object;
+      @|dev\Ecila\handlers\Macro.java|700|715|ImageWriteParam|class|javax.imageio.ImageWriteParam
+      @|dev\Ecila\handlers\Macro.java|731|751|getDefaultWriteParam|method|javax.imageio.ImageWriter|getDefaultWriteParam|()Ljavax/imageio/ImageWriteParam;
+      @|dev\Ecila\handlers\Macro.java|769|787|setCompressionMode|method|javax.imageio.ImageWriteParam|setCompressionMode|(I)V
+      @|dev\Ecila\handlers\Macro.java|788|803|ImageWriteParam|class|javax.imageio.ImageWriteParam
+      @|dev\Ecila\handlers\Macro.java|804|817|MODE_EXPLICIT|field|javax.imageio.ImageWriteParam|MODE_EXPLICIT
+      @|dev\Ecila\handlers\Macro.java|834|855|setCompressionQuality|method|javax.imageio.ImageWriteParam|setCompressionQuality|(F)V
+      @|dev\Ecila\handlers\Macro.java|871|888|ImageOutputStream|class|javax.imageio.stream.ImageOutputStream
+      @|dev\Ecila\handlers\Macro.java|895|902|ImageIO|class|javax.imageio.ImageIO
+      @|dev\Ecila\handlers\Macro.java|903|926|createImageOutputStream|method|javax.imageio.ImageIO|createImageOutputStream|(Ljava/lang/Object;)Ljavax/imageio/stream/ImageOutputStream;
+      @|dev\Ecila\handlers\Macro.java|949|958|setOutput|method|javax.imageio.ImageWriter|setOutput|(Ljava/lang/Object;)V
+      @|dev\Ecila\handlers\Macro.java|980|985|write|method|javax.imageio.ImageWriter|write|(Ljavax/imageio/metadata/IIOMetadata;Ljavax/imageio/IIOImage;Ljavax/imageio/ImageWriteParam;)V
+      @|dev\Ecila\handlers\Macro.java|996|1018|javax.imageio.IIOImage|class|javax.imageio.IIOImage
+      @|dev\Ecila\handlers\Macro.java|1067|1074|dispose|method|javax.imageio.ImageWriter|dispose|()V
+      @|dev\Ecila\handlers\Macro.java|1090|1095|close|method|java.lang.AutoCloseable|close|()V
+      @|dev\Ecila\handlers\Macro.java|1112|1117|close|method|java.lang.AutoCloseable|close|()V
+      @|dev\Ecila\handlers\Macro.java|1136|1142|Base64|class|java.util.Base64
+      @|dev\Ecila\handlers\Macro.java|1143|1153|getEncoder|method|java.util.Base64|getEncoder|()Ljava/util/Base64$Encoder;
+      @|dev\Ecila\handlers\Macro.java|1156|1170|encodeToString|method|java.util.Base64.Encoder|encodeToString|([B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Macro.java|1176|1187|toByteArray|method|java.io.ByteArrayOutputStream|toByteArray|()[B
+   Method End: takeScreenshot()Ljava/lang/String;
+Class End  : dev.Ecila.handlers.Macro
+endProcessing dev\Ecila\handlers\Macro.java
+
+processing dev\Ecila\handlers\Mining.java
+@|dev\Ecila\handlers\Mining.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Mining
+   Method Start: grabEssential()Ljava/lang/String;
+      @|dev\Ecila\handlers\Mining.java|284|297|grabEssential|method|dev.Ecila.handlers.Mining|grabEssential|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Mining.java|277|283|String|class|java.lang.String
+      @|dev\Ecila\handlers\Mining.java|309|315|String|class|java.lang.String
+      @|dev\Ecila\handlers\Mining.java|332|341|Minecraft|class|net.minecraft.client.Minecraft
+      @|dev\Ecila\handlers\Mining.java|342|354|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|dev\Ecila\handlers\Mining.java|357|366|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|dev\Ecila\handlers\Mining.java|417|430|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Mining.java|452|465|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Mining.java|485|489|File|class|java.io.File
+      @|dev\Ecila\handlers\Mining.java|505|511|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Mining.java|571|585|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Mining.java|599|613|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Mining.java|618|628|FileReader|class|java.io.FileReader
+      @|dev\Ecila\handlers\Mining.java|660|666|String|class|java.lang.String
+      @|dev\Ecila\handlers\Mining.java|707|715|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Mining.java|761|767|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|dev\Ecila\handlers\Mining.java|774|780|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|dev\Ecila\handlers\Mining.java|819|830|IOException|class|java.io.IOException
+      @|dev\Ecila\handlers\Mining.java|850|865|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|dev\Ecila\handlers\Mining.java|894|900|Base64|class|java.util.Base64
+      @|dev\Ecila\handlers\Mining.java|901|911|getEncoder|method|java.util.Base64|getEncoder|()Ljava/util/Base64$Encoder;
+      @|dev\Ecila\handlers\Mining.java|914|928|encodeToString|method|java.util.Base64.Encoder|encodeToString|([B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Mining.java|944|952|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Mining.java|955|963|getBytes|method|java.lang.String|getBytes|(Ljava/nio/charset/Charset;)[B
+      @|dev\Ecila\handlers\Mining.java|964|980|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|dev\Ecila\handlers\Mining.java|981|986|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+   Method End: grabEssential()Ljava/lang/String;
+Class End  : dev.Ecila.handlers.Mining
+endProcessing dev\Ecila\handlers\Mining.java
+
+processing dev\Ecila\handlers\Misc.java
+@|dev\Ecila\handlers\Misc.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Misc
+   @|dev\Ecila\handlers\Misc.java|436|440|File|class|java.io.File
+   @|dev\Ecila\handlers\Misc.java|441|448|appData|field|dev.Ecila.handlers.Misc|appData|
+   @|dev\Ecila\handlers\Misc.java|455|459|File|class|java.io.File
+   @|dev\Ecila\handlers\Misc.java|460|466|System|class|java.lang.System
+   @|dev\Ecila\handlers\Misc.java|467|473|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Misc.java|506|510|File|class|java.io.File
+   @|dev\Ecila\handlers\Misc.java|511|523|localAppData|field|dev.Ecila.handlers.Misc|localAppData|
+   @|dev\Ecila\handlers\Misc.java|530|534|File|class|java.io.File
+   @|dev\Ecila\handlers\Misc.java|535|541|System|class|java.lang.System
+   @|dev\Ecila\handlers\Misc.java|542|548|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Misc.java|594|600|String|class|java.lang.String
+   @|dev\Ecila\handlers\Misc.java|602|608|String|class|java.lang.String
+   @|dev\Ecila\handlers\Misc.java|586|593|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Misc.java|610|615|paths|field|dev.Ecila.handlers.Misc|paths|
+   @|dev\Ecila\handlers\Misc.java|622|629|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Misc.java|630|636|String|class|java.lang.String
+   @|dev\Ecila\handlers\Misc.java|638|644|String|class|java.lang.String
+   Anon Class Start: dev.Ecila.handlers.Misc$1
+      @|dev\Ecila\handlers\Misc.java|672|675|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|693|705|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+      @|dev\Ecila\handlers\Misc.java|752|755|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|774|786|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+      @|dev\Ecila\handlers\Misc.java|834|837|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|850|862|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+      @|dev\Ecila\handlers\Misc.java|903|906|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|916|923|appData|field|dev.Ecila.handlers.Misc|appData
+      @|dev\Ecila\handlers\Misc.java|973|976|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|989|996|appData|field|dev.Ecila.handlers.Misc|appData
+      @|dev\Ecila\handlers\Misc.java|1049|1052|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|1062|1074|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+      @|dev\Ecila\handlers\Misc.java|1135|1138|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|1150|1162|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+      @|dev\Ecila\handlers\Misc.java|1202|1205|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|1216|1228|localAppData|field|dev.Ecila.handlers.Misc|localAppData
+   Anon Class End: dev.Ecila.handlers.Misc$1
+   @|dev\Ecila\handlers\Misc.java|1306|1315|JsonArray|class|com.google.gson.JsonArray
+   @|dev\Ecila\handlers\Misc.java|1316|1321|pswds|field|dev.Ecila.handlers.Misc|pswds|
+   @|dev\Ecila\handlers\Misc.java|1328|1337|JsonArray|class|com.google.gson.JsonArray
+   Method Start: grabPassword()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Misc.java|1363|1375|grabPassword|method|dev.Ecila.handlers.Misc|grabPassword|()Lcom/google/gson/JsonArray;
+      @|dev\Ecila\handlers\Misc.java|1353|1362|JsonArray|class|com.google.gson.JsonArray
+      @|dev\Ecila\handlers\Misc.java|1388|1401|crawlUserData|method|dev.Ecila.handlers.Misc|crawlUserData|()V
+      @|dev\Ecila\handlers\Misc.java|1420|1425|pswds|field|dev.Ecila.handlers.Misc|pswds
+   Method End: grabPassword()Lcom/google/gson/JsonArray;
+   Method Start: crawlUserData()V
+      @|dev\Ecila\handlers\Misc.java|1451|1464|crawlUserData|method|dev.Ecila.handlers.Misc|crawlUserData|()V
+      @|dev\Ecila\handlers\Misc.java|1482|1488|String|class|java.lang.String
+      @|dev\Ecila\handlers\Misc.java|1499|1504|paths|field|dev.Ecila.handlers.Misc|paths
+      @|dev\Ecila\handlers\Misc.java|1505|1511|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|dev\Ecila\handlers\Misc.java|1529|1533|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|1549|1553|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|1554|1559|paths|field|dev.Ecila.handlers.Misc|paths
+      @|dev\Ecila\handlers\Misc.java|1560|1563|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Misc.java|1601|1607|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Misc.java|1646|1652|getKey|method|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B
+      @|dev\Ecila\handlers\Misc.java|1657|1661|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|1706|1710|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|1726|1735|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|dev\Ecila\handlers\Misc.java|1766|1773|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|1776|1784|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|dev\Ecila\handlers\Misc.java|1804|1811|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|1814|1820|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Misc.java|1855|1869|crawlPasswords|method|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V
+      @|dev\Ecila\handlers\Misc.java|1914|1921|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|1924|1930|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Misc.java|1968|1982|crawlPasswords|method|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V
+   Method End: crawlUserData()V
+   Method Start: crawlPasswords(Ljava/io/File;[B)V
+      @|dev\Ecila\handlers\Misc.java|2065|2079|crawlPasswords|method|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V
+      @|dev\Ecila\handlers\Misc.java|2080|2084|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|2085|2092|profile|param|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V|profile|0
+      @|dev\Ecila\handlers\Misc.java|2101|2104|key|param|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V|key|1
+      @|dev\Ecila\handlers\Misc.java|2134|2138|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|2155|2159|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|2160|2167|profile|param|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V|profile|0
+      @|dev\Ecila\handlers\Misc.java|2196|2200|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|2221|2225|File|class|java.io.File
+      @|dev\Ecila\handlers\Misc.java|2226|2233|profile|param|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V|profile|0
+      @|dev\Ecila\handlers\Misc.java|2282|2288|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Misc.java|2312|2317|Files|class|java.nio.file.Files
+      @|dev\Ecila\handlers\Misc.java|2318|2322|copy|method|java.nio.file.Files|copy|(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Misc.java|2333|2339|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Misc.java|2357|2363|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Misc.java|2367|2399|java.nio.file.StandardCopyOption|class|java.nio.file.StandardCopyOption
+      @|dev\Ecila\handlers\Misc.java|2400|2416|REPLACE_EXISTING|field|java.nio.file.StandardCopyOption|REPLACE_EXISTING
+      @|dev\Ecila\handlers\Misc.java|2431|2437|Driver|class|java.sql.Driver
+      @|dev\Ecila\handlers\Misc.java|2447|2452|Ecila|class|dev.Ecila.Ecila
+      @|dev\Ecila\handlers\Misc.java|2453|2459|driver|field|dev.Ecila.Ecila|driver
+      @|dev\Ecila\handlers\Misc.java|2473|2483|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Misc.java|2496|2506|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Misc.java|2522|2532|Connection|class|java.sql.Connection
+      @|dev\Ecila\handlers\Misc.java|2553|2560|connect|method|java.sql.Driver|connect|(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+      @|dev\Ecila\handlers\Misc.java|2592|2607|getAbsolutePath|method|java.io.File|getAbsolutePath|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|2631|2640|ResultSet|class|java.sql.ResultSet
+      @|dev\Ecila\handlers\Misc.java|2664|2679|createStatement|method|java.sql.Connection|createStatement|()Ljava/sql/Statement;
+      @|dev\Ecila\handlers\Misc.java|2682|2694|executeQuery|method|java.sql.Statement|executeQuery|(Ljava/lang/String;)Ljava/sql/ResultSet;
+      @|dev\Ecila\handlers\Misc.java|2790|2794|next|method|java.sql.ResultSet|next|()Z
+      @|dev\Ecila\handlers\Misc.java|2853|2861|getBytes|method|java.sql.ResultSet|getBytes|(I)[B
+      @|dev\Ecila\handlers\Misc.java|2882|2888|String|class|java.lang.String
+      @|dev\Ecila\handlers\Misc.java|2909|2916|decrypt|method|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|2936|2939|key|param|dev.Ecila.handlers.Misc|crawlPasswords|(Ljava/io/File;[B)V|key|1
+      @|dev\Ecila\handlers\Misc.java|3002|3011|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3036|3045|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3081|3091|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Misc.java|3103|3113|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Misc.java|3142|3153|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Misc.java|3173|3182|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3186|3192|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Misc.java|3210|3219|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3258|3269|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Misc.java|3294|3303|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3307|3313|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Misc.java|3331|3340|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Misc.java|3379|3390|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Misc.java|3443|3448|pswds|field|dev.Ecila.handlers.Misc|pswds
+      @|dev\Ecila\handlers\Misc.java|3449|3452|add|method|com.google.gson.JsonArray|add|(Lcom/google/gson/JsonElement;)V
+      @|dev\Ecila\handlers\Misc.java|3510|3519|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Misc.java|3539|3554|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: crawlPasswords(Ljava/io/File;[B)V
+Class End  : dev.Ecila.handlers.Misc
+endProcessing dev\Ecila\handlers\Misc.java
+
+processing dev\Ecila\handlers\Render.java
+@|dev\Ecila\handlers\Render.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Render
+   @|dev\Ecila\handlers\Render.java|499|503|File|class|java.io.File
+   @|dev\Ecila\handlers\Render.java|504|511|appData|field|dev.Ecila.handlers.Render|appData|
+   @|dev\Ecila\handlers\Render.java|518|522|File|class|java.io.File
+   @|dev\Ecila\handlers\Render.java|523|529|System|class|java.lang.System
+   @|dev\Ecila\handlers\Render.java|530|536|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Render.java|569|573|File|class|java.io.File
+   @|dev\Ecila\handlers\Render.java|574|586|localAppData|field|dev.Ecila.handlers.Render|localAppData|
+   @|dev\Ecila\handlers\Render.java|593|597|File|class|java.io.File
+   @|dev\Ecila\handlers\Render.java|598|604|System|class|java.lang.System
+   @|dev\Ecila\handlers\Render.java|605|611|getenv|method|java.lang.System|getenv|(Ljava/lang/String;)Ljava/lang/String;
+   @|dev\Ecila\handlers\Render.java|657|663|String|class|java.lang.String
+   @|dev\Ecila\handlers\Render.java|665|671|String|class|java.lang.String
+   @|dev\Ecila\handlers\Render.java|649|656|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Render.java|673|678|paths|field|dev.Ecila.handlers.Render|paths|
+   @|dev\Ecila\handlers\Render.java|685|692|HashMap|class|java.util.HashMap
+   @|dev\Ecila\handlers\Render.java|693|699|String|class|java.lang.String
+   @|dev\Ecila\handlers\Render.java|701|707|String|class|java.lang.String
+   Anon Class Start: dev.Ecila.handlers.Render$1
+      @|dev\Ecila\handlers\Render.java|735|738|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|756|768|localAppData|field|dev.Ecila.handlers.Render|localAppData
+      @|dev\Ecila\handlers\Render.java|815|818|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|837|849|localAppData|field|dev.Ecila.handlers.Render|localAppData
+      @|dev\Ecila\handlers\Render.java|897|900|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|913|925|localAppData|field|dev.Ecila.handlers.Render|localAppData
+      @|dev\Ecila\handlers\Render.java|966|969|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|979|986|appData|field|dev.Ecila.handlers.Render|appData
+      @|dev\Ecila\handlers\Render.java|1036|1039|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|1052|1059|appData|field|dev.Ecila.handlers.Render|appData
+      @|dev\Ecila\handlers\Render.java|1112|1115|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|1125|1137|localAppData|field|dev.Ecila.handlers.Render|localAppData
+      @|dev\Ecila\handlers\Render.java|1198|1201|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|1213|1225|localAppData|field|dev.Ecila.handlers.Render|localAppData
+      @|dev\Ecila\handlers\Render.java|1265|1268|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|1279|1291|localAppData|field|dev.Ecila.handlers.Render|localAppData
+   Anon Class End: dev.Ecila.handlers.Render$1
+   @|dev\Ecila\handlers\Render.java|1369|1378|JsonArray|class|com.google.gson.JsonArray
+   @|dev\Ecila\handlers\Render.java|1379|1386|cookies|field|dev.Ecila.handlers.Render|cookies|
+   @|dev\Ecila\handlers\Render.java|1393|1402|JsonArray|class|com.google.gson.JsonArray
+   Method Start: grabCookies()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1425|1436|grabCookies|method|dev.Ecila.handlers.Render|grabCookies|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1418|1424|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|1449|1462|crawlUserData|method|dev.Ecila.handlers.Render|crawlUserData|()V
+      @|dev\Ecila\handlers\Render.java|1474|1480|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|1510|1521|JsonElement|class|com.google.gson.JsonElement
+      @|dev\Ecila\handlers\Render.java|1531|1538|cookies|field|dev.Ecila.handlers.Render|cookies
+      @|dev\Ecila\handlers\Render.java|1574|1589|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+      @|dev\Ecila\handlers\Render.java|1592|1595|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dev\Ecila\handlers\Render.java|1607|1618|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1705|1720|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+      @|dev\Ecila\handlers\Render.java|1723|1726|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dev\Ecila\handlers\Render.java|1735|1746|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1765|1780|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+      @|dev\Ecila\handlers\Render.java|1783|1786|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dev\Ecila\handlers\Render.java|1796|1807|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1843|1849|Base64|class|java.util.Base64
+      @|dev\Ecila\handlers\Render.java|1850|1860|getEncoder|method|java.util.Base64|getEncoder|()Ljava/util/Base64$Encoder;
+      @|dev\Ecila\handlers\Render.java|1863|1877|encodeToString|method|java.util.Base64.Encoder|encodeToString|([B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|1888|1896|getBytes|method|java.lang.String|getBytes|()[B
+   Method End: grabCookies()Ljava/lang/String;
+   Method Start: crawlUserData()V
+      @|dev\Ecila\handlers\Render.java|1925|1938|crawlUserData|method|dev.Ecila.handlers.Render|crawlUserData|()V
+      @|dev\Ecila\handlers\Render.java|1956|1962|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|1973|1978|paths|field|dev.Ecila.handlers.Render|paths
+      @|dev\Ecila\handlers\Render.java|1979|1985|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|dev\Ecila\handlers\Render.java|2003|2007|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2023|2027|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2028|2033|paths|field|dev.Ecila.handlers.Render|paths
+      @|dev\Ecila\handlers\Render.java|2034|2037|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\handlers\Render.java|2075|2081|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Render.java|2120|2126|getKey|method|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B
+      @|dev\Ecila\handlers\Render.java|2131|2135|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2175|2179|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2197|2201|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2252|2258|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Render.java|2289|2293|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2312|2321|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|dev\Ecila\handlers\Render.java|2352|2359|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|2362|2368|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Render.java|2403|2415|crawlCookies|method|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V
+   Method End: crawlUserData()V
+   Method Start: crawlCookies(Ljava/io/File;[B)V
+      @|dev\Ecila\handlers\Render.java|2494|2506|crawlCookies|method|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V
+      @|dev\Ecila\handlers\Render.java|2507|2511|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2512|2522|cookieFile|param|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V|cookieFile|0
+      @|dev\Ecila\handlers\Render.java|2531|2534|key|param|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V|key|1
+      @|dev\Ecila\handlers\Render.java|2564|2568|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2586|2590|File|class|java.io.File
+      @|dev\Ecila\handlers\Render.java|2591|2605|createTempFile|method|java.io.File|createTempFile|(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+      @|dev\Ecila\handlers\Render.java|2655|2667|deleteOnExit|method|java.io.File|deleteOnExit|()V
+      @|dev\Ecila\handlers\Render.java|2683|2688|Files|class|java.nio.file.Files
+      @|dev\Ecila\handlers\Render.java|2689|2693|copy|method|java.nio.file.Files|copy|(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Render.java|2694|2704|cookieFile|param|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V|cookieFile|0
+      @|dev\Ecila\handlers\Render.java|2705|2711|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Render.java|2730|2736|toPath|method|java.io.File|toPath|()Ljava/nio/file/Path;
+      @|dev\Ecila\handlers\Render.java|2740|2772|java.nio.file.StandardCopyOption|class|java.nio.file.StandardCopyOption
+      @|dev\Ecila\handlers\Render.java|2773|2789|REPLACE_EXISTING|field|java.nio.file.StandardCopyOption|REPLACE_EXISTING
+      @|dev\Ecila\handlers\Render.java|2804|2810|Driver|class|java.sql.Driver
+      @|dev\Ecila\handlers\Render.java|2820|2825|Ecila|class|dev.Ecila.Ecila
+      @|dev\Ecila\handlers\Render.java|2826|2832|driver|field|dev.Ecila.Ecila|driver
+      @|dev\Ecila\handlers\Render.java|2846|2856|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Render.java|2869|2879|Properties|class|java.util.Properties
+      @|dev\Ecila\handlers\Render.java|2895|2905|Connection|class|java.sql.Connection
+      @|dev\Ecila\handlers\Render.java|2926|2933|connect|method|java.sql.Driver|connect|(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;
+      @|dev\Ecila\handlers\Render.java|2966|2981|getAbsolutePath|method|java.io.File|getAbsolutePath|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|3005|3014|ResultSet|class|java.sql.ResultSet
+      @|dev\Ecila\handlers\Render.java|3038|3053|createStatement|method|java.sql.Connection|createStatement|()Ljava/sql/Statement;
+      @|dev\Ecila\handlers\Render.java|3056|3068|executeQuery|method|java.sql.Statement|executeQuery|(Ljava/lang/String;)Ljava/sql/ResultSet;
+      @|dev\Ecila\handlers\Render.java|3154|3158|next|method|java.sql.ResultSet|next|()Z
+      @|dev\Ecila\handlers\Render.java|3180|3186|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|3207|3216|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|3237|3243|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|3261|3270|getString|method|java.sql.ResultSet|getString|(I)Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|3325|3333|getBytes|method|java.sql.ResultSet|getBytes|(I)[B
+      @|dev\Ecila\handlers\Render.java|3439|3445|String|class|java.lang.String
+      @|dev\Ecila\handlers\Render.java|3463|3470|decrypt|method|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Render.java|3487|3490|key|param|dev.Ecila.handlers.Render|crawlCookies|(Ljava/io/File;[B)V|key|1
+      @|dev\Ecila\handlers\Render.java|3533|3539|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|dev\Ecila\handlers\Render.java|3571|3581|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Render.java|3595|3605|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\handlers\Render.java|3640|3651|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Render.java|3704|3715|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Render.java|3762|3773|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/String;)V
+      @|dev\Ecila\handlers\Render.java|3824|3831|cookies|field|dev.Ecila.handlers.Render|cookies
+      @|dev\Ecila\handlers\Render.java|3832|3835|add|method|com.google.gson.JsonArray|add|(Lcom/google/gson/JsonElement;)V
+      @|dev\Ecila\handlers\Render.java|3916|3925|Exception|class|java.lang.Exception
+      @|dev\Ecila\handlers\Render.java|3945|3960|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: crawlCookies(Ljava/io/File;[B)V
+Class End  : dev.Ecila.handlers.Render
+endProcessing dev\Ecila\handlers\Render.java
+
+processing dev\Ecila\handlers\Rift.java
+@|dev\Ecila\handlers\Rift.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Rift
+   Method Start: grabLunar()Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|242|251|grabLunar|method|dev.Ecila.handlers.Rift|grabLunar|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|235|241|String|class|java.lang.String
+      @|dev\Ecila\handlers\Rift.java|263|269|String|class|java.lang.String
+      @|dev\Ecila\handlers\Rift.java|282|288|System|class|java.lang.System
+      @|dev\Ecila\handlers\Rift.java|289|300|getProperty|method|java.lang.System|getProperty|(Ljava/lang/String;)Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|373|386|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Rift.java|408|421|StringBuilder|class|java.lang.StringBuilder
+      @|dev\Ecila\handlers\Rift.java|441|445|File|class|java.io.File
+      @|dev\Ecila\handlers\Rift.java|457|463|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\handlers\Rift.java|524|538|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Rift.java|552|566|BufferedReader|class|java.io.BufferedReader
+      @|dev\Ecila\handlers\Rift.java|571|581|FileReader|class|java.io.FileReader
+      @|dev\Ecila\handlers\Rift.java|609|615|String|class|java.lang.String
+      @|dev\Ecila\handlers\Rift.java|656|664|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|710|716|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|dev\Ecila\handlers\Rift.java|723|729|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|dev\Ecila\handlers\Rift.java|768|779|IOException|class|java.io.IOException
+      @|dev\Ecila\handlers\Rift.java|799|814|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|dev\Ecila\handlers\Rift.java|843|849|Base64|class|java.util.Base64
+      @|dev\Ecila\handlers\Rift.java|850|860|getEncoder|method|java.util.Base64|getEncoder|()Ljava/util/Base64$Encoder;
+      @|dev\Ecila\handlers\Rift.java|863|877|encodeToString|method|java.util.Base64.Encoder|encodeToString|([B)Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|893|901|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Rift.java|904|912|getBytes|method|java.lang.String|getBytes|(Ljava/nio/charset/Charset;)[B
+      @|dev\Ecila\handlers\Rift.java|913|929|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|dev\Ecila\handlers\Rift.java|930|935|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+   Method End: grabLunar()Ljava/lang/String;
+Class End  : dev.Ecila.handlers.Rift
+endProcessing dev\Ecila\handlers\Rift.java
+
+processing dev\Ecila\handlers\Skyblock.java
+@|dev\Ecila\handlers\Skyblock.java|8|26|dev.Ecila.handlers|package|dev.Ecila.handlers|(file)
+Class Start: dev.Ecila.handlers.Skyblock
+   Method Start: getMcInfo()[Ljava/lang/String;
+      @|dev\Ecila\handlers\Skyblock.java|113|122|getMcInfo|method|dev.Ecila.handlers.Skyblock|getMcInfo|()[Ljava/lang/String;
+      @|dev\Ecila\handlers\Skyblock.java|104|110|String|class|java.lang.String
+      @|dev\Ecila\handlers\Skyblock.java|145|151|String|class|java.lang.String
+      @|dev\Ecila\handlers\Skyblock.java|154|163|Minecraft|class|net.minecraft.client.Minecraft
+      @|dev\Ecila\handlers\Skyblock.java|164|176|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|dev\Ecila\handlers\Skyblock.java|179|189|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|dev\Ecila\handlers\Skyblock.java|192|203|getUsername|method|net.minecraft.util.Session|getUsername|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Skyblock.java|206|215|Minecraft|class|net.minecraft.client.Minecraft
+      @|dev\Ecila\handlers\Skyblock.java|216|228|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|dev\Ecila\handlers\Skyblock.java|231|241|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|dev\Ecila\handlers\Skyblock.java|244|255|getPlayerID|method|net.minecraft.util.Session|getPlayerID|()Ljava/lang/String;
+      @|dev\Ecila\handlers\Skyblock.java|258|267|Minecraft|class|net.minecraft.client.Minecraft
+      @|dev\Ecila\handlers\Skyblock.java|268|280|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|dev\Ecila\handlers\Skyblock.java|283|293|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|dev\Ecila\handlers\Skyblock.java|296|304|getToken|method|net.minecraft.util.Session|getToken|()Ljava/lang/String;
+   Method End: getMcInfo()[Ljava/lang/String;
+Class End  : dev.Ecila.handlers.Skyblock
+endProcessing dev\Ecila\handlers\Skyblock.java
+
+processing dev\Ecila\utils\Utils.java
+@|dev\Ecila\utils\Utils.java|8|23|dev.Ecila.utils|package|dev.Ecila.utils|(file)
+Class Start: dev.Ecila.utils.Utils
+   Method Start: getKey(Ljava/io/File;)[B
+      @|dev\Ecila\utils\Utils.java|704|710|getKey|method|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B
+      @|dev\Ecila\utils\Utils.java|711|715|File|class|java.io.File
+      @|dev\Ecila\utils\Utils.java|716|720|path|param|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B|path|0
+      @|dev\Ecila\utils\Utils.java|751|761|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\utils\Utils.java|780|790|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\utils\Utils.java|795|799|Gson|class|com.google.gson.Gson
+      @|dev\Ecila\utils\Utils.java|802|810|fromJson|method|com.google.gson.Gson|fromJson|(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|815|825|FileReader|class|java.io.FileReader
+      @|dev\Ecila\utils\Utils.java|826|830|path|param|dev.Ecila.utils.Utils|getKey|(Ljava/io/File;)[B|path|0
+      @|dev\Ecila\utils\Utils.java|833|843|JsonObject|class|com.google.gson.JsonObject
+      @|dev\Ecila\utils\Utils.java|906|909|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dev\Ecila\utils\Utils.java|922|937|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+      @|dev\Ecila\utils\Utils.java|940|943|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|dev\Ecila\utils\Utils.java|961|972|getAsString|method|com.google.gson.JsonElement|getAsString|()Ljava/lang/String;
+      @|dev\Ecila\utils\Utils.java|975|983|getBytes|method|java.lang.String|getBytes|()[B
+      @|dev\Ecila\utils\Utils.java|1019|1025|Base64|class|java.util.Base64
+      @|dev\Ecila\utils\Utils.java|1026|1036|getDecoder|method|java.util.Base64|getDecoder|()Ljava/util/Base64$Decoder;
+      @|dev\Ecila\utils\Utils.java|1039|1045|decode|method|java.util.Base64.Decoder|decode|([B)[B
+      @|dev\Ecila\utils\Utils.java|1098|1104|Arrays|class|java.util.Arrays
+      @|dev\Ecila\utils\Utils.java|1105|1116|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      Field: Array Length, skipping
+      @|dev\Ecila\utils\Utils.java|1185|1196|Crypt32Util|class|com.sun.jna.platform.win32.Crypt32Util
+      @|dev\Ecila\utils\Utils.java|1197|1215|cryptUnprotectData|method|com.sun.jna.platform.win32.Crypt32Util|cryptUnprotectData|([B)[B
+      @|dev\Ecila\utils\Utils.java|1262|1271|Exception|class|java.lang.Exception
+      @|dev\Ecila\utils\Utils.java|1291|1306|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getKey(Ljava/io/File;)[B
+   Method Start: decrypt([B[B)Ljava/lang/String;
+      @|dev\Ecila\utils\Utils.java|1377|1384|decrypt|method|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;
+      @|dev\Ecila\utils\Utils.java|1370|1376|String|class|java.lang.String
+      @|dev\Ecila\utils\Utils.java|1392|1405|encryptedData|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|encryptedData|0
+      @|dev\Ecila\utils\Utils.java|1414|1417|key|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|key|1
+      @|dev\Ecila\utils\Utils.java|1447|1453|Cipher|class|javax.crypto.Cipher
+      @|dev\Ecila\utils\Utils.java|1463|1469|Cipher|class|javax.crypto.Cipher
+      @|dev\Ecila\utils\Utils.java|1470|1481|getInstance|method|javax.crypto.Cipher|getInstance|(Ljava/lang/String;)Ljavax/crypto/Cipher;
+      @|dev\Ecila\utils\Utils.java|1528|1534|Arrays|class|java.util.Arrays
+      @|dev\Ecila\utils\Utils.java|1535|1546|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      @|dev\Ecila\utils\Utils.java|1547|1560|encryptedData|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|encryptedData|0
+      @|dev\Ecila\utils\Utils.java|1599|1605|Arrays|class|java.util.Arrays
+      @|dev\Ecila\utils\Utils.java|1606|1617|copyOfRange|method|java.util.Arrays|copyOfRange|([BII)[B
+      @|dev\Ecila\utils\Utils.java|1618|1631|encryptedData|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|encryptedData|0
+      @|dev\Ecila\utils\Utils.java|1637|1650|encryptedData|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|encryptedData|0
+      Field: Array Length, skipping
+      @|dev\Ecila\utils\Utils.java|1672|1688|GCMParameterSpec|class|javax.crypto.spec.GCMParameterSpec
+      @|dev\Ecila\utils\Utils.java|1700|1716|GCMParameterSpec|class|javax.crypto.spec.GCMParameterSpec
+      @|dev\Ecila\utils\Utils.java|1739|1752|SecretKeySpec|class|javax.crypto.spec.SecretKeySpec
+      @|dev\Ecila\utils\Utils.java|1767|1780|SecretKeySpec|class|javax.crypto.spec.SecretKeySpec
+      @|dev\Ecila\utils\Utils.java|1781|1784|key|param|dev.Ecila.utils.Utils|decrypt|([B[B)Ljava/lang/String;|key|1
+      @|dev\Ecila\utils\Utils.java|1813|1817|init|method|javax.crypto.Cipher|init|(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+      @|dev\Ecila\utils\Utils.java|1822|1825|Key|class|java.security.Key
+      @|dev\Ecila\utils\Utils.java|1865|1871|String|class|java.lang.String
+      @|dev\Ecila\utils\Utils.java|1879|1886|doFinal|method|javax.crypto.Cipher|doFinal|([B)[B
+      @|dev\Ecila\utils\Utils.java|1923|1932|Exception|class|java.lang.Exception
+      @|dev\Ecila\utils\Utils.java|1952|1967|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: decrypt([B[B)Ljava/lang/String;
+   Method Start: bypassKeyRestriction()V
+      @|dev\Ecila\utils\Utils.java|2035|2055|bypassKeyRestriction|method|dev.Ecila.utils.Utils|bypassKeyRestriction|()V
+      @|dev\Ecila\utils\Utils.java|2094|2100|Cipher|class|javax.crypto.Cipher
+      @|dev\Ecila\utils\Utils.java|2101|2123|getMaxAllowedKeyLength|method|javax.crypto.Cipher|getMaxAllowedKeyLength|(Ljava/lang/String;)I
+      @|dev\Ecila\utils\Utils.java|2156|2161|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|2174|2179|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|2180|2187|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|dev\Ecila\utils\Utils.java|2251|2262|Constructor|class|java.lang.reflect.Constructor
+      @|dev\Ecila\utils\Utils.java|2279|2301|getDeclaredConstructor|method|java.lang.Class|getDeclaredConstructor|([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+      @|dev\Ecila\utils\Utils.java|2325|2338|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|2362|2368|Object|class|java.lang.Object
+      @|dev\Ecila\utils\Utils.java|2399|2410|newInstance|method|java.lang.reflect.Constructor|newInstance|([Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|2430|2435|Field|class|java.lang.reflect.Field
+      @|dev\Ecila\utils\Utils.java|2447|2463|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|dev\Ecila\utils\Utils.java|2498|2511|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|2537|2547|setBoolean|method|java.lang.reflect.Field|setBoolean|(Ljava/lang/Object;Z)V
+      @|dev\Ecila\utils\Utils.java|2606|2611|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|2612|2619|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|dev\Ecila\utils\Utils.java|2684|2706|getDeclaredConstructor|method|java.lang.Class|getDeclaredConstructor|([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+      @|dev\Ecila\utils\Utils.java|2730|2743|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|2767|2773|Object|class|java.lang.Object
+      @|dev\Ecila\utils\Utils.java|2795|2806|newInstance|method|java.lang.reflect.Constructor|newInstance|([Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|2837|2853|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|dev\Ecila\utils\Utils.java|2882|2895|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|2921|2924|Map|class|java.util.Map
+      @|dev\Ecila\utils\Utils.java|2928|2931|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|2949|2952|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|3010|3015|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|3016|3023|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|dev\Ecila\utils\Utils.java|3087|3103|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|dev\Ecila\utils\Utils.java|3140|3153|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|3177|3182|Field|class|java.lang.reflect.Field
+      @|dev\Ecila\utils\Utils.java|3188|3193|Field|class|java.lang.reflect.Field
+      @|dev\Ecila\utils\Utils.java|3200|3216|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|dev\Ecila\utils\Utils.java|3250|3263|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|dev\Ecila\utils\Utils.java|3290|3296|setInt|method|java.lang.reflect.Field|setInt|(Ljava/lang/Object;I)V
+      @|dev\Ecila\utils\Utils.java|3302|3314|getModifiers|method|java.lang.reflect.Member|getModifiers|()I
+      @|dev\Ecila\utils\Utils.java|3320|3328|Modifier|class|java.lang.reflect.Modifier
+      @|dev\Ecila\utils\Utils.java|3329|3334|FINAL|field|java.lang.reflect.Modifier|FINAL
+      @|dev\Ecila\utils\Utils.java|3355|3358|set|method|java.lang.reflect.Field|set|(Ljava/lang/Object;Ljava/lang/Object;)V
+      @|dev\Ecila\utils\Utils.java|3421|3430|Exception|class|java.lang.Exception
+      @|dev\Ecila\utils\Utils.java|3450|3465|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: bypassKeyRestriction()V
+   Method Start: getDriver()Ljava/sql/Driver;
+      @|dev\Ecila\utils\Utils.java|3510|3519|getDriver|method|dev.Ecila.utils.Utils|getDriver|()Ljava/sql/Driver;
+      @|dev\Ecila\utils\Utils.java|3503|3509|Driver|class|java.sql.Driver
+      @|dev\Ecila\utils\Utils.java|3549|3553|File|class|java.io.File
+      @|dev\Ecila\utils\Utils.java|3571|3575|File|class|java.io.File
+      @|dev\Ecila\utils\Utils.java|3576|3585|Minecraft|class|net.minecraft.client.Minecraft
+      @|dev\Ecila\utils\Utils.java|3586|3598|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|dev\Ecila\utils\Utils.java|3601|3610|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|dev\Ecila\utils\Utils.java|3667|3670|URL|class|java.net.URL
+      @|dev\Ecila\utils\Utils.java|3681|3684|URL|class|java.net.URL
+      @|dev\Ecila\utils\Utils.java|3801|3807|exists|method|java.io.File|exists|()Z
+      @|dev\Ecila\utils\Utils.java|3829|3838|FileUtils|class|org.apache.commons.io.FileUtils
+      @|dev\Ecila\utils\Utils.java|3839|3852|copyURLToFile|method|org.apache.commons.io.FileUtils|copyURLToFile|(Ljava/net/URL;Ljava/io/File;)V
+      @|dev\Ecila\utils\Utils.java|3908|3920|deleteOnExit|method|java.io.File|deleteOnExit|()V
+      @|dev\Ecila\utils\Utils.java|3936|3947|ClassLoader|class|java.lang.ClassLoader
+      @|dev\Ecila\utils\Utils.java|3966|3980|URLClassLoader|class|java.net.URLClassLoader
+      @|dev\Ecila\utils\Utils.java|3985|3988|URL|class|java.net.URL
+      @|dev\Ecila\utils\Utils.java|4004|4009|toURI|method|java.io.File|toURI|()Ljava/net/URI;
+      @|dev\Ecila\utils\Utils.java|4012|4017|toURL|method|java.net.URI|toURL|()Ljava/net/URL;
+      @|dev\Ecila\utils\Utils.java|4036|4041|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|4050|4055|Class|class|java.lang.Class
+      @|dev\Ecila\utils\Utils.java|4056|4063|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+      @|dev\Ecila\utils\Utils.java|4115|4121|Object|class|java.lang.Object
+      @|dev\Ecila\utils\Utils.java|4145|4156|newInstance|method|java.lang.Class|newInstance|()Ljava/lang/Object;
+      @|dev\Ecila\utils\Utils.java|4180|4186|Driver|class|java.sql.Driver
+      @|dev\Ecila\utils\Utils.java|4221|4230|Exception|class|java.lang.Exception
+      @|dev\Ecila\utils\Utils.java|4250|4265|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: getDriver()Ljava/sql/Driver;
+Class End  : dev.Ecila.utils.Utils
+endProcessing dev\Ecila\utils\Utils.java
+

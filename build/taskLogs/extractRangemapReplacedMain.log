@@ -1,0 +1,12 @@
+Symbol range map extraction starting
+Processing 10 files
+processing dev\Ecila\Ecila.java
+processing dev\Ecila\handlers\Combat.java
+processing dev\Ecila\handlers\Dungeon.java
+processing dev\Ecila\handlers\Macro.java
+processing dev\Ecila\handlers\Mining.java
+processing dev\Ecila\handlers\Misc.java
+processing dev\Ecila\handlers\Render.java
+processing dev\Ecila\handlers\Rift.java
+processing dev\Ecila\handlers\Skyblock.java
+processing dev\Ecila\utils\Utils.java
